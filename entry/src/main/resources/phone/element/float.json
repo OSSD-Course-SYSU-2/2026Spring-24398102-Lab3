@@ -1,0 +1,12 @@
+{
+  "float": [
+    { "name": "font_size_large", "value": "22" },
+    { "name": "font_size_medium", "value": "16" },
+    { "name": "font_size_small", "value": "12" },
+    { "name": "margin_large", "value": "20" },
+    { "name": "margin_medium", "value": "12" },
+    { "name": "margin_small", "value": "8" },
+    { "name": "card_width", "value": "70" },
+    { "name": "card_height", "value": "90" }
+  ]
+}

@@ -1,5 +1,8 @@
 {
   "src": [
-    "pages/Index"
+    "pages/Index",
+    "pages/Game",
+    "pages/GameLevel2",
+    "pages/GameLevel3"
   ]
 }

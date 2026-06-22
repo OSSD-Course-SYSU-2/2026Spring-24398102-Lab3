@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "EntryAbility_label",
+      "value": "天气 (手机)"
+    },
+    {
+      "name": "module_desc",
+      "value": "天气预报应用 - 手机版"
+    }
+  ]
+}

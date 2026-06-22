@@ -11,6 +11,14 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "permission_distributed_data_reason",
+      "value": "用于跨设备数据同步,实现多端协同体验"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "用于获取和风天气官方实时天气数据"
     }
   ]
 }

@@ -5,7 +5,34 @@
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
     "deviceTypes": [
-      "phone"
+      "phone",
+      "tablet",
+      "2in1",
+      "car",
+      "wearable",
+      "tv"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_internet_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "$string:permission_distributed_data_reason",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        }
+      }
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
@@ -20,6 +47,7 @@
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
+        "continuable": true,
         "skills": [
           {
             "entities": [
